@@ -1,0 +1,8 @@
+channels:
+    - bioconda
+    - defaults
+    - conda-forge
+dependencies:
+    - kraken2=2.1.2
+    - krakentools=1.2
+    - krona=2.8

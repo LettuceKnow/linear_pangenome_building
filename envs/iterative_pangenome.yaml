@@ -1,0 +1,16 @@
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - k8=0.2.5
+  - libgcc-ng=11.2.0
+  - libgomp=11.2.0
+  - libstdcxx-ng=9.3.0
+  - minimap2=2.22
+  - mummer4=4.0.0rc1
+  - perl=5.26.2
+  - seqkit=2.0.0
+  - zlib=1.2.11
