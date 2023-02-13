@@ -27,3 +27,14 @@ Breakdown of the command above (and other options). Please always check the Snak
 | `-n`                   | Dry-run; won't execute anything.                                                             |
 | `--conda-prefix`       | Specifies where to store conda environments; useful for preventing redundant environments.   |
 | `--singularity-prefix` | Specifies where to store singularity containers; useful for preventing redundant containers. |
+
+## Example command read mapping
+
+Since the first step of this pipeline is read mapping to the respective reference genomes, one can only perform this step like so:
+
+```bash
+cd Lactuca_sativa #as an example, it is the same for the other species
+snakemake -rpc81 -s ../Snakefile --use-conda output/alignment_merged/LK122.bam.bai #using LK122 as an example, it is the same for other accessions
+```
+
+**NB**: Please note that this pipeline does not add read groups or mark duplicates.
