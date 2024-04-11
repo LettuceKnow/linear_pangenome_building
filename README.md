@@ -1,3 +1,5 @@
+TODO: ADD LICENSE
+
 # Linear pangenome pipeline
 
 This repository contains a copy of the Snakemake pipeline used for the creation of the four linear _Lactuca_ pangenomes. 
