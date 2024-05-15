@@ -1,5 +1,3 @@
-TODO: ADD LICENSE
-
 # Linear pangenome pipeline
 
 This repository contains a copy of the Snakemake pipeline used for the creation of the four linear _Lactuca_ pangenomes. 
@@ -40,3 +38,21 @@ snakemake -rpc81 -s ../Snakefile --use-conda output/alignment_merged/LK122.bam.b
 ```
 
 **NB**: Please note that this pipeline does not add read groups or mark duplicates.
+
+
+## Copyright statement
+    Copyright (C)  2024  Dirk-Jan M. van Workum
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
